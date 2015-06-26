@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>27A750A8-2908-4D90-B0BE-5C8C4006D34F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>RecipeBook</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>8919A6F58E0DD37E7D709D2F689EC234F6CE3FBB</key>
+		<string>github.com:zonble/RecipeBookWithLeanplum.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>RecipeBook.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>8919A6F58E0DD37E7D709D2F689EC234F6CE3FBB</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:zonble/RecipeBookWithLeanplum.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>8919A6F58E0DD37E7D709D2F689EC234F6CE3FBB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8919A6F58E0DD37E7D709D2F689EC234F6CE3FBB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>RecipeBookWithLeanplum</string>
+		</dict>
+	</array>
+</dict>
+</plist>

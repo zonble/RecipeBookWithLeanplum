@@ -17,38 +17,10 @@
 @synthesize recipeLabel;
 @synthesize recipeName;
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
-}
-
 - (void) viewWillAppear:(BOOL)animated
 {
-    NSLog(@"RecipeDetailViewController viewWillAppear");
     [super viewWillAppear:animated];
-}
-
-
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-	// Set the Label text with the selected recipe
-    recipeLabel.text = recipeName;
-}
-
-- (void)viewDidUnload
-{
-    [super viewDidUnload];
-    // Release any retained subviews of the main view.
-}
-
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
-{
-    return (interfaceOrientation == UIInterfaceOrientationPortrait);
+    NSLog(@"1 RecipeDetailViewController viewWillAppear");
 }
 
 @end

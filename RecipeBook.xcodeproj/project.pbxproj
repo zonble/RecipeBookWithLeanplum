@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9E2633633FD1D8C72933FC08 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F0CC08B328410A2B67B0AEDF /* libPods.a */; };
+		D444A85C1B3CEB1300FF24C6 /* SubClassOfRecipeBookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D444A85B1B3CEB1300FF24C6 /* SubClassOfRecipeBookViewController.m */; };
 		F419149E158D558600E54887 /* RecipeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F419149D158D558600E54887 /* RecipeDetailViewController.m */; };
 		F4379A48159741E700CAD93E /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4379A47159741E600CAD93E /* AboutViewController.m */; };
 		F4379A4C1597775500CAD93E /* about.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4379A4A1597775500CAD93E /* about.jpg */; };
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		212CD20F6703374DEDD6130E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		4563ACA6EF4A319469B48D03 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		D444A85A1B3CEB1300FF24C6 /* SubClassOfRecipeBookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubClassOfRecipeBookViewController.h; sourceTree = "<group>"; };
+		D444A85B1B3CEB1300FF24C6 /* SubClassOfRecipeBookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubClassOfRecipeBookViewController.m; sourceTree = "<group>"; };
 		F0CC08B328410A2B67B0AEDF /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F419149C158D558600E54887 /* RecipeDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeDetailViewController.h; sourceTree = "<group>"; };
 		F419149D158D558600E54887 /* RecipeDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeDetailViewController.m; sourceTree = "<group>"; };
@@ -111,6 +114,8 @@
 				F4AA6C321589A2DF0093D97E /* Supporting Files */,
 				F419149C158D558600E54887 /* RecipeDetailViewController.h */,
 				F419149D158D558600E54887 /* RecipeDetailViewController.m */,
+				D444A85A1B3CEB1300FF24C6 /* SubClassOfRecipeBookViewController.h */,
+				D444A85B1B3CEB1300FF24C6 /* SubClassOfRecipeBookViewController.m */,
 				F4379A46159741E600CAD93E /* AboutViewController.h */,
 				F4379A47159741E600CAD93E /* AboutViewController.m */,
 				F4379A4A1597775500CAD93E /* about.jpg */,
@@ -234,6 +239,7 @@
 				F4AA6C3C1589A2DF0093D97E /* RecipeBookAppDelegate.m in Sources */,
 				F4AA6C421589A2DF0093D97E /* RecipeBookViewController.m in Sources */,
 				F419149E158D558600E54887 /* RecipeDetailViewController.m in Sources */,
+				D444A85C1B3CEB1300FF24C6 /* SubClassOfRecipeBookViewController.m in Sources */,
 				F4379A48159741E700CAD93E /* AboutViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

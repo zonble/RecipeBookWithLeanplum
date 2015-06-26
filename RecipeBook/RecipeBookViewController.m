@@ -8,6 +8,7 @@
 
 #import "RecipeBookViewController.h"
 #import "RecipeDetailViewController.h"
+#import "SubClassOfRecipeBookViewController.h"
 
 @interface RecipeBookViewController ()
 
@@ -21,7 +22,6 @@
 
 - (void) viewWillAppear:(BOOL)animated
 {
-    NSLog(@"RecipeBookViewController viewWillAppear");
     [super viewWillAppear:animated];
 }
 
@@ -63,17 +63,29 @@
     return cell;
 }
 
-
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    if ([segue.identifier isEqualToString:@"showRecipeDetail"]) {
-        NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
-        RecipeDetailViewController *destViewController = segue.destinationViewController;
-        destViewController.recipeName = [recipes objectAtIndex:indexPath.row];
-
-        // Hide bottom tab bar in the detail view
-      //  destViewController.hidesBottomBarWhenPushed = YES;
-    }
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+	BOOL even = (indexPath.row % 2) == 1;
+	if (even) {
+		RecipeDetailViewController *controller = [[RecipeDetailViewController alloc] initWithNibName:nil bundle:nil];
+		[self.navigationController pushViewController:controller animated:YES];
+	}
+	else {
+		SubClassOfRecipeBookViewController *controller = [[SubClassOfRecipeBookViewController alloc] initWithNibName:nil bundle:nil];
+		[self.navigationController pushViewController:controller animated:YES];
+	}
 }
+
+//- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+//    if ([segue.identifier isEqualToString:@"showRecipeDetail"]) {
+//        NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
+//        RecipeDetailViewController *destViewController = segue.destinationViewController;
+//        destViewController.recipeName = [recipes objectAtIndex:indexPath.row];
+//
+//        // Hide bottom tab bar in the detail view
+//      //  destViewController.hidesBottomBarWhenPushed = YES;
+//    }
+//}
 
 
 @end

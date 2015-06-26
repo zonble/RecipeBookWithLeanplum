@@ -27,9 +27,6 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </view>
-                                        <connections>
-                                            <segue destination="JOa-m2-nv8" kind="push" identifier="showRecipeDetail" id="jE0-Ys-L3h"/>
-                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
@@ -89,33 +86,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3Oo-Ue-lAL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1533" y="557"/>
-        </scene>
-        <!--Recipe Detail View Controller-->
-        <scene sceneID="5Ms-qY-lRu">
-            <objects>
-                <viewController id="JOa-m2-nv8" customClass="RecipeDetailViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="oeU-vb-cnt">
-                        <rect key="frame" x="0.0" y="64" width="320" height="367"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="17" id="Dze-ds-zDR">
-                                <rect key="frame" x="88" y="97" width="193" height="70"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="825-b7-Yiw"/>
-                    <connections>
-                        <outlet property="recipeLabel" destination="Dze-ds-zDR" id="yyZ-ms-tO5"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="VoZ-CV-3EG" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2036" y="-37"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="LxQ-od-vp6">
